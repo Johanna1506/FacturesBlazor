@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/johannajato/Projects/Facturations/Facturations/Server/Facturations.Server.csproj": {}
+  },
+  "projects": {
+    "/Users/johannajato/Projects/Facturations/Facturations/Client/Facturations.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/johannajato/Projects/Facturations/Facturations/Client/Facturations.Client.csproj",
+        "projectName": "Facturations.Client",
+        "projectPath": "/Users/johannajato/Projects/Facturations/Facturations/Client/Facturations.Client.csproj",
+        "packagesPath": "/Users/johannajato/.nuget/packages/",
+        "outputPath": "/Users/johannajato/Projects/Facturations/Facturations/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/johannajato/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/johannajato/Projects/Facturations/Facturations/Shared/Facturations.Shared.csproj": {
+                "projectPath": "/Users/johannajato/Projects/Facturations/Facturations/Shared/Facturations.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/johannajato/Projects/Facturations/Facturations/Server/Facturations.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/johannajato/Projects/Facturations/Facturations/Server/Facturations.Server.csproj",
+        "projectName": "Facturations.Server",
+        "projectPath": "/Users/johannajato/Projects/Facturations/Facturations/Server/Facturations.Server.csproj",
+        "packagesPath": "/Users/johannajato/.nuget/packages/",
+        "outputPath": "/Users/johannajato/Projects/Facturations/Facturations/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/johannajato/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/johannajato/Projects/Facturations/Facturations/Client/Facturations.Client.csproj": {
+                "projectPath": "/Users/johannajato/Projects/Facturations/Facturations/Client/Facturations.Client.csproj"
+              },
+              "/Users/johannajato/Projects/Facturations/Facturations/Shared/Facturations.Shared.csproj": {
+                "projectPath": "/Users/johannajato/Projects/Facturations/Facturations/Shared/Facturations.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/johannajato/Projects/Facturations/Facturations/Shared/Facturations.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/johannajato/Projects/Facturations/Facturations/Shared/Facturations.Shared.csproj",
+        "projectName": "Facturations.Shared",
+        "projectPath": "/Users/johannajato/Projects/Facturations/Facturations/Shared/Facturations.Shared.csproj",
+        "packagesPath": "/Users/johannajato/.nuget/packages/",
+        "outputPath": "/Users/johannajato/Projects/Facturations/Facturations/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/johannajato/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

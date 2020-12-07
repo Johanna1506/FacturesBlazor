@@ -1,0 +1,9 @@
+/Users/johannajato/Projects/Facturations/Facturations/Shared/obj/Debug/netstandard2.1/Facturations.Shared.csprojAssemblyReference.cache
+/Users/johannajato/Projects/Facturations/Facturations/Shared/obj/Debug/netstandard2.1/Facturations.Shared.AssemblyInfoInputs.cache
+/Users/johannajato/Projects/Facturations/Facturations/Shared/obj/Debug/netstandard2.1/Facturations.Shared.AssemblyInfo.cs
+/Users/johannajato/Projects/Facturations/Facturations/Shared/obj/Debug/netstandard2.1/Facturations.Shared.csproj.CoreCompileInputs.cache
+/Users/johannajato/Projects/Facturations/Facturations/Shared/bin/Debug/netstandard2.1/Facturations.Shared.deps.json
+/Users/johannajato/Projects/Facturations/Facturations/Shared/bin/Debug/netstandard2.1/Facturations.Shared.dll
+/Users/johannajato/Projects/Facturations/Facturations/Shared/bin/Debug/netstandard2.1/Facturations.Shared.pdb
+/Users/johannajato/Projects/Facturations/Facturations/Shared/obj/Debug/netstandard2.1/Facturations.Shared.dll
+/Users/johannajato/Projects/Facturations/Facturations/Shared/obj/Debug/netstandard2.1/Facturations.Shared.pdb

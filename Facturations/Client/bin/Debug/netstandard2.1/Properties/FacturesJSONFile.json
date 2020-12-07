@@ -1,0 +1,28 @@
+﻿{
+  "Factures": [
+    {
+      "Id": "1",
+      "Name": " Johanna Corp",
+      "BillingDate": "10/12/2020",
+      "PaymentDate": "14/12/2020",
+      "Amount": "120",
+      "AmountPaid": "0"
+    },
+    {
+      "Id": "2",
+      "Name": " Camille Corp",
+      "BillingDate": "10/12/2020",
+      "PaymentDate": "14/12/2020",
+      "Amount": "120",
+      "AmountPaid": "0"
+    },
+    {
+      "Id": "3",
+      "Name": " Marco Corp",
+      "BillingDate": "10/12/2020",
+      "PaymentDate": "14/12/2020",
+      "Amount": "120",
+      "AmountPaid": "0"
+    }
+  ]
+}
