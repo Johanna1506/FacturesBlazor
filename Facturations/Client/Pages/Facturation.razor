@@ -1,0 +1,76 @@
+@page "/factures"
+@using Facturations.Shared
+@inject HttpClient http
+@inject IBusinessData Data
+
+<h1>Liste des Factures</h1>
+
+<p>Voici la liste detaillée des factures</p>
+
+@if (factures == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Numéro de Facture</th>
+                <th>Nom du client</th>
+                <th>Date de facturation</th>
+                <th>Date du reglement</th>
+                <th>Montant du</th>
+                <th>Montant réglé</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var facture in factures)
+            {
+                <tr class="table-@ColorFromFacture(facture)">
+                    <td>@facture.Id</td>
+                    <td>@facture.Name</td>
+                    <td>@facture.BillingDate.ToShortDateString()</td>
+                    <td>@facture.PaymentDate.ToShortDateString()</td>
+                    <td>@facture.Amount.ToString("$ 0.00")</td>
+                    <td>@facture.AmountPaid.ToString("$ 0.00")</td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+    @code {
+            static string ColorFromFacture(Facture facture)
+            {
+                if (facture.IsLate)
+                {
+                    return "danger";
+                }
+                else if (facture.IsPaid)
+                {
+                    return "success";
+                }
+                else
+                {
+                    return "default";
+                }
+            }
+        
+
+        private IEnumerable<Facture> factures = null;
+
+        protected override async Task OnInitializedAsync()
+        {
+
+
+          factures = await http.GetFromJsonAsync<IEnumerable<Facture>>("api/factures");
+           
+            
+        }
+
+        }
+
+

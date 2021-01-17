@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
+using Facturations.Shared;
 
 namespace Facturations.Server
 {
@@ -23,6 +24,7 @@ namespace Facturations.Server
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddSingleton<IBusinessData>(sp => new BusinessData());
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

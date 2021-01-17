@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Facturations.Shared
 {
-    public class BusinessData : IbusinessData
+    public class BusinessData : IBusinessData
     {
         public List<Facture> listFactures;
 
@@ -26,6 +27,8 @@ namespace Facturations.Shared
 
         public IEnumerable<Facture> Factures => listFactures;
 
+        public decimal SalesRevenue => listFactures.Sum(facture => facture.Amount);
 
+        public decimal Outstanding => listFactures.Sum(facture => facture.Amount - facture.AmountPaid);
     }
 }

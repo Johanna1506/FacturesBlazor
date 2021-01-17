@@ -1,7 +1,9 @@
 ﻿@page "/"
+@using Facturations.Shared
+@inject IBusinessData data
 
-<h1>Hello, world!</h1>
+<h1>Votre activité</h1>
 
-Welcome to your new app.
+<h2> Chiffre d'affaire : <strong>@data.SalesRevenue.ToString("$ 0.00 ")</strong></h2>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<h2> Reste du : <strong>@data.Outstanding.ToString("$ 0.00 ")</strong></h2>

@@ -20,7 +20,7 @@ namespace Facturations.Client
             builder.RootComponents.Add<App>("app");
 
 
-            builder.Services.AddSingleton<IbusinessData>(sp => new BusinessData());
+            builder.Services.AddSingleton<IBusinessData>(sp => new BusinessData());
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
             await builder.Build().RunAsync();

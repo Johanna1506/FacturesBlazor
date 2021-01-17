@@ -75,6 +75,13 @@ using Facturations.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "/Users/johannajato/Projects/Facturations/Facturations/Client/Pages/Index.razor"
+using Facturations.Shared;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -83,6 +90,7 @@ using Facturations.Client.Shared;
         {
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IBusinessData data { get; set; }
     }
 }
 #pragma warning restore 1591

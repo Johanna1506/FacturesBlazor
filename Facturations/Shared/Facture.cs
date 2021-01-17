@@ -60,5 +60,23 @@ namespace Facturations.Shared
             get => _amountPaid;
             set => _amountPaid = value;
         }
+
+        public bool IsPaid => Amount == AmountPaid;
+
+        public bool IsLate => PaymentDate < DateTime.Now;
+
+        public void RegisterPayment(DateTime when, int howMany)
+        {
+            if(when < BillingDate)
+            {
+                throw new ArgumentOutOfRangeException("Vous ne pouvez pas regler avant la creation de la facture");
+            }
+            PaymentDate = when;
+            if(Amount-AmountPaid < howMany )
+            {
+                throw new ArgumentOutOfRangeException("Vous ne pouvez pas payer plus que la facture");
+            }
+            AmountPaid += howMany;
+        }
     }
 }

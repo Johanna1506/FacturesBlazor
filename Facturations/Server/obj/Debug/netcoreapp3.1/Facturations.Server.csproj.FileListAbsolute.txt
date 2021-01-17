@@ -1,4 +1,5 @@
 /Users/johannajato/Projects/Facturations/Facturations/Server/bin/Debug/netcoreapp3.1/Facturations.Client.StaticWebAssets.xml
+/Users/johannajato/Projects/Facturations/Facturations/Server/bin/Debug/netcoreapp3.1/Properties/FacturesJSONFile.json
 /Users/johannajato/Projects/Facturations/Facturations/Server/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/johannajato/Projects/Facturations/Facturations/Server/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/johannajato/Projects/Facturations/Facturations/Server/bin/Debug/netcoreapp3.1/BlazorDebugProxy/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
@@ -190,7 +191,6 @@
 /Users/johannajato/Projects/Facturations/Facturations/Server/bin/Debug/netcoreapp3.1/Facturations.Shared.dll
 /Users/johannajato/Projects/Facturations/Facturations/Server/bin/Debug/netcoreapp3.1/Facturations.Client.pdb
 /Users/johannajato/Projects/Facturations/Facturations/Server/bin/Debug/netcoreapp3.1/Facturations.Shared.pdb
-/Users/johannajato/Projects/Facturations/Facturations/Server/obj/Debug/netcoreapp3.1/Facturations.Server.csprojAssemblyReference.cache
 /Users/johannajato/Projects/Facturations/Facturations/Server/obj/Debug/netcoreapp3.1/Facturations.Server.AssemblyInfoInputs.cache
 /Users/johannajato/Projects/Facturations/Facturations/Server/obj/Debug/netcoreapp3.1/Facturations.Server.AssemblyInfo.cs
 /Users/johannajato/Projects/Facturations/Facturations/Server/obj/Debug/netcoreapp3.1/Facturations.Server.csproj.CoreCompileInputs.cache
@@ -212,4 +212,4 @@
 /Users/johannajato/Projects/Facturations/Facturations/Server/obj/Debug/netcoreapp3.1/Facturations.Server.dll
 /Users/johannajato/Projects/Facturations/Facturations/Server/obj/Debug/netcoreapp3.1/Facturations.Server.pdb
 /Users/johannajato/Projects/Facturations/Facturations/Server/obj/Debug/netcoreapp3.1/Facturations.Server.genruntimeconfig.cache
-/Users/johannajato/Projects/Facturations/Facturations/Server/bin/Debug/netcoreapp3.1/Properties/FacturesJSONFile.json
+/Users/johannajato/Projects/Facturations/Facturations/Server/obj/Debug/netcoreapp3.1/Facturations.Server.csprojAssemblyReference.cache
