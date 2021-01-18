@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
 using Facturations.Shared;
+using Facturations.Server.Models;
 
 namespace Facturations.Server
 {
@@ -23,8 +24,8 @@ namespace Facturations.Server
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-
-            services.AddSingleton<IBusinessData>(sp => new BusinessData());
+            services.AddScoped<IBusinessData>(services => new BusinessDataRepository(Configuration.GetConnectionString("facturation")));
+       
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

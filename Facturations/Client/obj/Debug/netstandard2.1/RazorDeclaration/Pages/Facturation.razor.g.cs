@@ -114,11 +114,8 @@ using Facturations.Shared;
 
         protected override async Task OnInitializedAsync()
         {
-
-
-          factures = await http.GetFromJsonAsync<IEnumerable<Facture>>("api/factures");
+          factures = await http.GetFromJsonAsync<IEnumerable<Facture>>("api/facture");
            
-            
         }
 
         

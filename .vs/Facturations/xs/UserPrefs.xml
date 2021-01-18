@@ -1,30 +1,33 @@
 ﻿<Properties StartupConfiguration="{5CF7EB08-2E76-4C43-BD9E-BB95E50AA42B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Facturations/Shared/IbusinessData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Facturations/Server/Models/BusinessDataRepository.cs">
     <Files>
       <File FileName="Facturations/Client/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="Facturations/Client/Pages/Facturation.razor" />
-      <File FileName="Facturations/Server/Controllers/FactureController.cs" />
+      <File FileName="Facturations/Client/Pages/Facturation.razor" Line="69" Column="73" />
+      <File FileName="Facturations/Server/Controllers/FactureController.cs" Line="17" Column="46" />
       <File FileName="Facturations/Shared/IbusinessData.cs" Line="1" Column="1" />
-      <File FileName="Facturations/Shared/BusinessData.cs" />
-      <File FileName="Facturations/Shared/Facture.cs" />
+      <File FileName="Facturations/Shared/BusinessData.cs" Line="1" Column="1" />
+      <File FileName="Facturations/Shared/Facture.cs" Line="1" Column="1" />
+      <File FileName="Facturations/Server/Models/BusinessDataRepository.cs" Line="23" Column="1" />
+      <File FileName="Facturations/Server/Startup.cs" Line="34" Column="80" />
+      <File FileName="Facturations/Server/appsettings.json" Line="13" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="Facturations" expanded="True">
-            <Node name="Facturations.Client" expanded="True" />
             <Node name="Facturations.Server" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="Shared" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="BusinessDataRepository.cs" selected="True" />
               </Node>
             </Node>
-            <Node name="Facturations.Shared" expanded="True">
-              <Node name="IbusinessData.cs" selected="True" />
-            </Node>
+            <Node name="Facturations.Shared" expanded="True" />
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

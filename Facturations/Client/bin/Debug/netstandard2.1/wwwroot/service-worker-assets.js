@@ -65,7 +65,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-mt2SyILrBNeh7c64w0rK+9NWuJGZKNJYeSP1FNn\/\/hY=",
+      "hash": "sha256-q6u8TkpVmLaUPEK53hb74rTHAftxo+J13kiJTOEbkWo=",
       "url": "_framework\/_bin\/Facturations.Client.dll"
     },
     {
@@ -217,7 +217,7 @@
       "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
-      "hash": "sha256-jmJoMDBoBkTLqLpI0g+jT5IW+j9tr0hgzwDouCswpIs=",
+      "hash": "sha256-FqGGx9lVMUeSbrM5KlHIt+aWySCkOsjb0iMYOd5i3is=",
       "url": "_framework\/_bin\/Facturations.Shared.dll"
     },
     {
@@ -277,11 +277,11 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-JAEST\/+Lih2AZxtb4xhLWjte\/RZvF25s5wCv\/ti4RaQ=",
+      "hash": "sha256-Yxiw2Mkm6o+viQC\/wwDN79myCPwJu7zKSOtadl2D\/bg=",
       "url": "_framework\/_bin\/Facturations.Client.pdb"
     },
     {
-      "hash": "sha256-xRjJVRSZwgd3yAfgSNDHYvwEMf5ivYksQ0r78KOWTUY=",
+      "hash": "sha256-KBaQSLy1+aXFmuLWdglzGKSRBqEhbLzUkNq0z2DtIFw=",
       "url": "_framework\/_bin\/Facturations.Shared.pdb"
     },
     {
@@ -301,9 +301,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-7hjD9fa9h9x2tfvoSRpAy1lHS1NRYpeA0avz5f3OgPU=",
+      "hash": "sha256-fhGwGgpCf7touuHN1Qw+zBnsi+OMEI+L4x70yqr815E=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "QHhidJOi"
+  "version": "S+LTSLFT"
 };

@@ -11,7 +11,10 @@ namespace Facturations.Shared
         private int _amount;
         private int _amountPaid;
 
+        public Facture()
+        {
 
+        }
 
         public Facture(int Id, string Name, DateTime BillingDate, DateTime PaymentDate, int Amount, int AmountPaid)
         {
